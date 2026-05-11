@@ -21,9 +21,6 @@
       if (filter === "done")   return  t.done;
       return true;
     });
- 
-
-    
     list.innerHTML = "";
     if (visible.length === 0) {
       const empty = document.createElement("li");
